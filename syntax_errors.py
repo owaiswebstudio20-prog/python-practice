@@ -31,3 +31,35 @@ b = 4
 
 print(a)
 print(b)
+
+#Expression is evaluated according to BODMAS rule.
+a = 2 % 2 + 2 * 2 - 2 / 2;
+print(a)
+
+#Expression is evaluated according to BODMAS rule.
+b = 3 / 2 + 5 * 4 / 3 ;
+print(b)
+
+
+#Expression is evaluated according to BODMAS rule.
+c = b = a = 3 + 4 ;
+print(c)
+
+# Calculate the area of a circle using A = pi * r^2
+
+pi = 3.14
+r = 50
+a= pi * r**2
+
+print("Area of a circle",a)
+
+#distance formula
+x1 = 4
+y1 = 3
+
+x2 = 8
+y2 = 12
+
+# Calculate distance between two points
+distance = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+print("Distance=",distance)
